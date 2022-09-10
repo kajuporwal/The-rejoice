@@ -1,0 +1,468 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --main-blue: rgb(105, 172, 218);
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Piazzolla', serif;
+  overflow-x: hidden;
+}
+/* ---------------------NAVBAR----------------------- */
+video{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.rejoice{
+  font-family:cursive;
+}
+.rejoice span{
+  font-weight: bolder;
+}
+.rejoice::first-letter{
+  color: rgb(221, 221, 235);
+  font-size:40px;
+}
+#navbar{
+  position: relative;
+  bottom: 100px;
+}
+.navbar ul li a{
+  color: white;
+}
+.navbar ul li a:hover{
+  background-color: aliceblue;
+  color: black;
+}
+/* ---------------------HOME_PAGE----------------------- */
+#chair{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  position: absolute;
+  right: 120px;
+  bottom: 30px;
+}
+.h1 #h1{
+  text-transform: capitalize;
+}
+.h1 #h1 #dont{
+  color: orange;
+  position: relative;
+  left: 250px;
+  font-size: 4rem;
+}
+.h1 #h1 #here{
+  color: rgb(105, 172, 218);
+}
+.h1 #h1 #we{
+  position: relative;
+  left: 150px;
+  font-size: 4rem;
+}
+#explore{
+  background-color: orange;
+  position: relative;
+  left: 320px;
+  top: 20px;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -4px black;
+  outline: none;
+}
+#explore:hover{
+  box-shadow: 0 8px 6px -4px rgb(37, 111, 160);
+}
+/* ---------------------DEPRESSION----------------------- */
+#sad_img{
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  top: 40rem;
+  left: 40px;
+}
+#dep_box{
+position: relative;
+top:22rem ;
+left: 30rem;
+}
+#dep_head{
+  font-size: 4rem;
+  position: relative;
+  left: 14rem;
+  color: var(--main-blue);
+}
+#dep_para{
+ width: 40rem;
+ position: relative;
+ left: 4rem;
+ text-align: center;
+ font-size: 1.4rem;
+}
+
+/* ---------------------CAROUSEL----------------------- */
+ .carousel_img{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 28rem;
+  bottom: 500px;
+}
+#carouselExampleFade{
+  position: relative;
+  top: 35rem;
+  height: 30rem;
+}
+#l-strip{
+  background-image: linear-gradient(orange, rgb(37, 111, 160));
+  width: 7rem;
+  height: 15rem;
+  position: relative;
+  left: 3rem;
+  top: -2rem;
+}
+#r-strip{
+  background-image: linear-gradient(orange, rgb(37, 111, 160));
+  width: 7rem;
+  height: 14rem;
+  position: relative;
+  left: 70rem;
+  top: -15rem;
+}
+#heading{
+  text-transform: capitalize;
+  font-family: 'Piazzolla', serif;
+  text-align: center;
+  font-size: 3rem;
+}
+#para{
+  text-transform: capitalize;
+  font-family: 'Piazzolla', serif;
+  text-align: center;
+  font-size: 2rem;
+}
+/* ---------------------YOGA----------------------- */
+
+#yoga_gif_box{
+  position: relative;
+  top: 38rem;
+  background-color: rgb(127, 132, 190);
+}
+#yoga_gif{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 5rem;
+}
+#head_yoga{
+  font-size: 3rem;
+  position: relative;
+  left: 41rem;
+  top: 12rem;
+  color: white;
+}
+#para_yoga_1{
+ width: 40rem;
+ color: white;
+ position: relative;
+ left: 38rem;
+ top: 15rem;
+ text-align: center;
+ font-size: 1.4rem;
+}
+#para_yoga_2{
+ color: white;
+ position: relative;
+ left: 17rem;
+ top: 16rem;
+ text-align: center;
+ font-size: 1.4rem;
+}
+#yoga_btn{
+  background-color: white;
+  position: relative;
+  left: 52rem;
+  top: 18rem;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -0px rgb(48, 53, 112);
+  outline: none;
+}
+#yoga_btn:hover{
+  box-shadow: 0 8px 6px -0px rgb(81, 82, 104);
+}
+/* ---------------------YOGA_1_PAGE----------------------- */
+#yoga_bg{
+  width: 100%;
+  height: 30rem;
+  /* object-fit: cover; */
+  position: relative;
+  /* left:24rem ; */
+  bottom: 5.8rem;
+}
+.card{
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid black;
+  position: relative;
+  left: 3rem;
+}
+/* ---------------------Councillor_PAGE----------------------- */
+#councillor_box{
+  width: 100%;
+  height: 40rem;
+}
+#councillor_img{
+width: 37rem;
+height: 23rem;
+position: relative;
+top: 31rem;
+left: 20rem;
+}
+#heading_1_concillor{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+  color: rgb(255, 122, 141);
+}
+#heading_2_concillor{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+  color: var(--main-blue);
+}
+#btn_therapy{
+  background-color: rgb(255, 122, 141);
+  position: relative;
+  left: 32rem;
+  top: 25rem;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -4px black;
+  outline: none;
+}
+#btn_therapy:hover{
+  background-color: var(--main-blue);
+  color: white;
+}
+/* ---------------------Councillor_1_PAGE----------------------- */
+.img_odd_councillor{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  position: relative;
+  top: 5rem;
+  left: 10rem;
+}
+.odd_box{
+  width: 20rem;
+  height: 15rem;
+  position: relative;
+  left:21rem ;
+  top: 12rem;
+}
+.twitter_odd{
+  color: white;
+  position: absolute;
+  top:21rem ;
+  left: 48rem;
+}
+.mobile_no_odd{
+  color: white;
+  position: absolute;
+  top:26.5rem ;
+  left: 48rem;
+}
+.facebook_odd{
+  color: white;
+  position: absolute;
+  top:24rem ;
+  left: 48rem;
+}
+
+#bg_councillor{
+  background-color: rgb(16, 30, 67) ;
+  width: 80rem;
+  height: 29.9rem;
+  position: relative;
+  bottom: 6rem;
+}
+.name_heading{
+  color: white;
+  position: absolute;
+  top: 5rem;
+  left: 42rem;
+  font-size: 2.8rem;
+}
+/* ---------------------LOGIN_PAGE----------------------- */
+.bg{
+  background-color: rgb(225, 232, 246);
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  bottom: 6rem;
+  overflow: hidden;
+}
+.container{
+  width: 50rem;
+  height: 24rem;
+  position: relative;
+  left: -1rem;
+  top: 3rem;
+  box-shadow: 0px 0px 10px 0px  black;
+}
+#login_img{
+  width: 25rem;
+  height: 23.9rem;
+  position: relative;
+  right: 8px;
+}
+#login_form div{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 6rem;
+  left: 30rem;
+}
+#login_form div input{
+  margin: 2px;
+  border-radius: 2rem;
+}
+.container h2{
+  text-transform: capitalize;
+  position: absolute;
+  top: 1rem;
+  left: 27rem;
+  text-shadow: 0px 5px 6px rgb(49, 84, 147) ;
+}
+#login_btn{
+  position: absolute;
+  top: 8rem;
+  width: 12.2rem;
+  border-radius: 3rem;
+  right: 0.3rem;
+}
+#login_btn:hover{
+  background-color: black;
+  color: white;
+}
+#not{
+  position: absolute;
+  top: 18rem;
+  left: 28rem;
+}
+#not a{
+  text-decoration: none;
+}
+#forget{
+  position: absolute;
+  top: 20rem;
+  left: 32rem;
+  text-decoration: none;
+}
+/* ---------------------REGISTER_PAGE----------------------- */
+#cont{
+  height: 40rem;
+  width: 26rem;
+  overflow: hidden;
+}
+#bgg{
+  height: 50rem;
+}
+/* #cont form{
+  transition: 1s;
+} */
+#register_heading{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+}
+.register_form div{
+  margin: 2rem;
+} 
+.p_n_btn{
+  background-color: white;
+  color: rgb(34, 148, 34);
+  text-transform: capitalize;
+  border-radius: 25px;
+  width: 5rem;
+  height: 3rem;
+  position: relative;
+  top: 5rem;
+}
+.p_n_btn:hover{
+  background-color:rgb(34, 148, 34) ;
+  color: white;
+}
+.common_prev{
+  float: left;
+}
+.common_next{
+  float: right;
+}
+#form_1{
+  position: relative;
+  right: -24px;
+  top: 2rem;
+}
+#form_2{
+  position: relative;
+  right: -30rem;
+  top: -5.5rem;
+}
+#form_3{
+  position: relative;
+  right: -29rem;
+  top: -13rem;
+}
+#enter_add{
+  position: relative;
+  right: -15px;
+}
+/* ---------------------FOOTER----------------------- */
+#footer{
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 21rem;
+  text-align: center;
+}
+/* ---------------------ERROR_PAGE----------------------- */
+#error_box{
+  background-color: rgb(181, 113, 114);
+  width: 100%;
+  height: 30rem;
+  /* height: 100px; */
+  position: relative;
+  top: -7rem;
+  /* max-height: 20vh; */
+}
+#error_img{
+  width: 25rem;
+  height: 20rem;
+  position: relative;
+  top: 4rem;
+  left: 27rem;
+}
